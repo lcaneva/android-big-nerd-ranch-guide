@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="my_question">Rome is the capital of Italy.</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="wrong_answer">Incorrect!</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+</resources>
