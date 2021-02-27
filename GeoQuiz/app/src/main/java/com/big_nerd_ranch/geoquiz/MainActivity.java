@@ -1,6 +1,7 @@
 package com.big_nerd_ranch.geoquiz;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -16,7 +17,13 @@ public class MainActivity extends AppCompatActivity {
         Button trueButton = findViewById(R.id.true_button);
         Button falseButton = findViewById(R.id.false_button);
 
-        trueButton.setOnClickListener(view-> Toast.makeText(this, R.string.correct_answer, Toast.LENGTH_SHORT));
-        falseButton.setOnClickListener(view-> Toast.makeText(this, R.string.wrong_answer, Toast.LENGTH_SHORT));
+        trueButton.setOnClickListener(view -> createNewToast(R.string.correct_answer));
+        falseButton.setOnClickListener(view -> createNewToast(R.string.wrong_answer));
+    }
+
+    private void createNewToast(int id) {
+        Toast toast = Toast.makeText(this, id, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.TOP, 0, 200);
+        toast.show();
     }
 }
