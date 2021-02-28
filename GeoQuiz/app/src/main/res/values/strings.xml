@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="my_question">Rome is the capital of Italy.</string>
+    <string name="question_capital">Rome is the capital of Italy.</string>
+    <string name="question_lakes">Lake Garda is the largest lake of Italy.</string>
+    <string name="question_mountains">Monte Rosa is the highest mountain of Italy.</string>
     <string name="correct_answer">Correct!</string>
     <string name="wrong_answer">Incorrect!</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
 </resources>
